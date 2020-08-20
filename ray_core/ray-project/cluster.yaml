@@ -21,3 +21,6 @@ docker:
 # How Ray will authenticate with newly launched nodes.
 auth:
     ssh_user: ubuntu
+
+setup_commands:
+    - pip install tensorflow torch torchvision
