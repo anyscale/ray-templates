@@ -1,0 +1,14 @@
+name: ray-dev
+
+description: "Ray development project"
+tags: ["ray", "development"]
+
+cluster:
+  config: ray-project/cluster.yaml
+
+commands: []
+
+output_files: [
+  # Save the logs from the latest run in snapshots.
+  "/tmp/ray/session_latest/logs"
+]
