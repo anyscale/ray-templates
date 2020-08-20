@@ -16,6 +16,7 @@ provider:
 docker:
     image: anyscale/ray:0.8.7
     container_name: ray_container
+    pull_before_run: false
 
 # How Ray will authenticate with newly launched nodes.
 auth:

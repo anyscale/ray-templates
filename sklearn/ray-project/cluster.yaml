@@ -52,6 +52,7 @@ auth:
 docker:
     image: anyscale/ray:0.8.7
     container_name: ray_container
+    pull_before_run: false
 
 # Provider-specific config for the head node, e.g. instance type. By default
 # Ray will auto-configure unspecified fields such as SubnetId and KeyName.
