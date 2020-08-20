@@ -4,7 +4,7 @@ name: ray-rllib-tutorial
 
 # description: A short description of the project.
 # The URL of the repo this project is part of.
-repo: b'git@github.com:anabranch/ray-templates.git'
+repo: b'git@github.com:anyscale/ray-templates.git'
 
 cluster:
   config: ray-project/cluster.yaml
