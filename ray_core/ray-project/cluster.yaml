@@ -14,13 +14,10 @@ provider:
     availability_zone: us-west-2a
 
 docker:
-    image: anyscale/ray:0.8.7
+    image: rayproject/autoscaler:latest
     container_name: ray_container
     pull_before_run: false
 
 # How Ray will authenticate with newly launched nodes.
 auth:
     ssh_user: ubuntu
-
-setup_commands:
-    - pip install tensorflow torch torchvision

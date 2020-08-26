@@ -50,7 +50,7 @@ auth:
 #    ssh_private_key: /path/to/your/key.pem
 
 docker:
-    image: anyscale/ray:0.8.7
+    image: rayproject/autoscaler:latest
     container_name: ray_container
     pull_before_run: false
 
