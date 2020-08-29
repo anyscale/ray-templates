@@ -16,7 +16,7 @@ provider:
     availability_zone: us-west-2a
 
 docker:
-    image: rayproject/autoscaler:latest
+    image: anyscale/autoscaler:0.8.7
     container_name: ray_container
     pull_before_run: false
 
