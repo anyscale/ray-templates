@@ -84,5 +84,5 @@ worker_nodes:
 # List of shell commands to run to set up nodes.
 setup_commands:
     - pip install tensorflow torch torchvision
-    - pip install -U https://s3-us-west-2.amazonaws.com/ray-wheels/latest/ray-0.9.0.dev0-cp36-cp36m-manylinux1_x86_64.whl
+    - pip install -U https://s3-us-west-2.amazonaws.com/ray-wheels/master/4659e24495a7ecfce7add77a29112410b2f74a48/ray-1.1.0.dev0-cp37-cp37m-manylinux1_x86_64.whl
     - pip install ray[dashboard] ray[debug]
