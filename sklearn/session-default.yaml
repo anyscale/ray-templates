@@ -45,7 +45,7 @@ auth:
 #    ssh_private_key: /path/to/your/key.pem
 
 docker:
-    image: anyscale/ray-ml:nightly
+    image: anyscale/ray-ml:latest
     container_name: ray_container
     pull_before_run: false
 
