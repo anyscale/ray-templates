@@ -36,7 +36,6 @@ auth:
 # http://boto3.readthedocs.io/en/latest/reference/services/ec2.html#EC2.ServiceResource.create_instances
 head_node:
     InstanceType: m5.4xlarge
-    ImageId: ami-0d1cd67c26f5fca19  # Default Ubuntu 18.04 AMI.
 
     # Set primary volume to 50 GiB
     BlockDeviceMappings:
@@ -52,7 +51,6 @@ head_node:
 # http://boto3.readthedocs.io/en/latest/reference/services/ec2.html#EC2.ServiceResource.create_instances
 worker_nodes:
     InstanceType: m5.2xlarge
-    ImageId: ami-0d1cd67c26f5fca19  # Default Ubuntu 18.04 AMI.
 
     # Set primary volume to 50 GiB
     BlockDeviceMappings:
