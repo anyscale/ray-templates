@@ -55,7 +55,6 @@ docker:
 # http://boto3.readthedocs.io/en/latest/reference/services/ec2.html#EC2.ServiceResource.create_instances
 head_node:
     InstanceType: m5.2xlarge
-    ImageId: ami-00537d6d959d3b1d5
 
     # You can provision additional disk space with a conf as follows
     BlockDeviceMappings:
@@ -70,7 +69,6 @@ head_node:
 # http://boto3.readthedocs.io/en/latest/reference/services/ec2.html#EC2.ServiceResource.create_instances
 worker_nodes:
     InstanceType: m5.2xlarge
-    ImageId: ami-00537d6d959d3b1d5
 
     BlockDeviceMappings:
         - DeviceName: /dev/sda1
