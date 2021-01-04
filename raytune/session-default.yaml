@@ -7,9 +7,10 @@ provider:
     type: aws
     region: us-west-2
     availability_zone: us-west-2a
+    managed: true
 
 docker:
-    image: anyscale/ray-ml:latest
+    image: anyscale/ray-ml:1.1.0-cpu
     container_name: ray_container
     pull_before_run: false
 
